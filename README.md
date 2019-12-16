@@ -1,6 +1,6 @@
 # website
 
-> Nuxt.js project
+> Nuxt.js project for my portfolio
 
 ## Build Setup
 
