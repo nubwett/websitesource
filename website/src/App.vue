@@ -1,11 +1,12 @@
 <template>
   <v-app>
+
     <v-app-bar
       app
-      color="primary"
+      color="blue"
       dark
     >
-      <div class="d-flex align-center">
+      <!-- <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
@@ -14,7 +15,6 @@
           transition="scale-transition"
           width="40"
         />
-
         <v-img
           alt="Vuetify Name"
           class="shrink mt-1 hidden-sm-and-down"
@@ -23,18 +23,37 @@
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
           width="100"
         />
-      </div>
+      </div> -->
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
+        href="#"
         text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+      >        
+        <span class="mr-2">home</span>
       </v-btn>
+
+      <v-btn
+        href="#about"
+        text
+      >        
+        <span class="mr-2">about</span>
+      </v-btn>
+      
+      <v-btn
+        href="#projects"
+        text
+      >        
+        <span class="mr-2">projects</span>
+      </v-btn>
+      <v-btn
+        href="#RSOs"
+        text
+      >        
+        <span class="mr-2">RSOs</span>
+      </v-btn>
+
     </v-app-bar>
 
     <v-content>
