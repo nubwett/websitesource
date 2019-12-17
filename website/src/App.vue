@@ -66,8 +66,12 @@ export default {
     Hobbies
   },
 
+  created () {
+    document.title = "Evan Hao";
+  },
   data: () => ({
     //
   })
 };
+
 </script>
