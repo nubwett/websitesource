@@ -40,7 +40,7 @@
 
     <v-content>
       <Intro style="background: #FFAF7B" id="home" />
-      <About id="about" style="background: #FFFEC8" />
+      <About id="about" style="background: #FFFEE0" />
       <Projects style="background: #B4E3F5" id="projects" />
       <RSOs id="RSOs" style="background: #FFAF7B" />
       <Hobbies style="background: #FFFEC8" />
