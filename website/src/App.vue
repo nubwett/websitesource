@@ -3,7 +3,7 @@
 
     <v-app-bar
       app
-      color="white"
+      color = "white"
       dark
     >
       <!-- <div class="d-flex align-center">
@@ -28,27 +28,27 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="#"
+        @click = "$vuetify.goTo('#home')"
         text
       >        
         <span class="mr-2 black--text ">home</span>
       </v-btn>
 
       <v-btn
-        href="#about"
+       @click = "$vuetify.goTo('#about')"
         text
       >        
         <span class="mr-2 black--text ">about</span>
       </v-btn>
       
       <v-btn
-        href="#projects"
+        @click = "$vuetify.goTo('#projects')"
         text
       >        
         <span class="mr-2 black--text ">projects</span>
       </v-btn>
       <v-btn
-        href="#RSOs"
+        @click = "$vuetify.goTo('#RSOs')"
         text
       >        
         <span class="mr-2 black--text ">RSOs</span>
@@ -57,10 +57,10 @@
     </v-app-bar>
 
     <v-content>
-      <Intro/>
-      <About id = "about"/>
-      <Projects/>
-      <RSOs/>
+      <Intro style = "background: #FFAF7B" id = "home"/>
+      <About style = "background: #D76D77" id = "about"/>
+      <Projects id = "projects"/>
+      <RSOs id = "RSOs"/>
       <Hobbies/>
     </v-content>
   </v-app>
