@@ -3,7 +3,7 @@
 
     <v-app-bar
       app
-      color="blue"
+      color="white"
       dark
     >
       <!-- <div class="d-flex align-center">
@@ -31,27 +31,27 @@
         href="#"
         text
       >        
-        <span class="mr-2">home</span>
+        <span class="mr-2 black--text ">home</span>
       </v-btn>
 
       <v-btn
         href="#about"
         text
       >        
-        <span class="mr-2">about</span>
+        <span class="mr-2 black--text ">about</span>
       </v-btn>
       
       <v-btn
         href="#projects"
         text
       >        
-        <span class="mr-2">projects</span>
+        <span class="mr-2 black--text ">projects</span>
       </v-btn>
       <v-btn
         href="#RSOs"
         text
       >        
-        <span class="mr-2">RSOs</span>
+        <span class="mr-2 black--text ">RSOs</span>
       </v-btn>
 
     </v-app-bar>

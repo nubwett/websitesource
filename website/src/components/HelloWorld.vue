@@ -1,19 +1,18 @@
 <template>
   <v-container>
-      <v-container         style = "background: #3A1C71;
+      <v-container
+        style = "background: #3A1C71;
     background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
     background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);">
+      <h1 class = "display-2 font-weight-bold text-center">Evan Hao</h1>
         <v-layout 
           row 
           wrap
           justify-center
         >
-          <v-flex xs12 md4 px-10 pt-10>
-            <h1 class="display-2 font-weight-bold mb-3">
-              Evan Hao
-            </h1>
+          <v-flex xs12 md3 px-10 pt-10>
             <p>Freshman at the University of Washington</p>
-            <p>Intended Computer Engineering Major</p>
+            <p>Currently in Computer Engineering <br> Intended Computer Engineering Major</p>
 
               <v-btn text icon href = "assets/.pdf"
               target="_blank" title = "Resume">
@@ -31,8 +30,8 @@
               >
                 <v-icon>mdi-linkedin</v-icon>
               </v-btn>
-
           </v-flex>
+
           <v-flex xs12 md2 py-10>
             <v-img
               src = "../assets/pfp.jpg"
@@ -50,7 +49,9 @@
         </h1>
       </v-flex>
     </v-container>
+
     
+  <v-container>
     <v-flex
         mb-5
         xs12
@@ -72,35 +73,51 @@
         <v-layout justify-center>
         </v-layout>
       </v-flex>
+  </v-container>
 
-    <v-layout
-      text-center
-      wrap
-      mx-10
-    >
-      <v-flex
+  <v-container>
+      <h2 class="headline font-weight-bold mb-3 text-center" id = "projects">Projects</h2>
+
+      <v-layout
         mb-5
-        xs12
-        md8
-        mx-auto
         py-5
+        xs12 
+        pt-5
         justify-center
+        mx-auto
+        row
+        wrap
+        md5
       >
-        <h2 class="headline font-weight-bold mb-3" id = "projects">Projects</h2>
-        
-        <v-layout justify-center>
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
-        </v-layout>
-      </v-flex>
+        <v-flex md1>
+            <h2>Detox</h2>
+            <p>Oct 2019</p>
+            <v-img
+            src = "../assets/dubhacks.png"
+            width = "60"
+          ></v-img>
+        </v-flex>
+        <v-flex md4 pl-10>
+          <p>
+            Created a Google Chrome Extension that limits/prevents cyberbullying by
+            censoring "toxic phrases/words." We created the Chrome Extension
+            using Vue.js and used Google's API for sentiment analysis to analyze
+            and determine what words are considered toxic or not. 
+            <br>
+            Team members: Kent Zeng, Allen Su, and Frank Hou.
+          </p> 
+            check out the github for more info -->
+            <v-btn text href = "https://github.com/nubwett/Detox"
+              target="_blank" title = "GitHub pages">
+                <v-icon>mdi-github-face</v-icon>
+            </v-btn>
 
+        </v-flex>
+
+        
+      </v-layout>
+
+  </v-container>
       <v-flex
         xs12
         mb-5
@@ -138,7 +155,6 @@
           </a>
         </v-layout>
       </v-flex>
-    </v-layout>
   </v-container>
 </template>
 
@@ -181,20 +197,6 @@ export default {
       {
         text: 'Articles',
         href: 'https://medium.com/vuetify',
-      },
-    ],
-    whatsNext: [
-      {
-        text: 'Explore components',
-        href: 'https://vuetifyjs.com/components/api-explorer',
-      },
-      {
-        text: 'Select a layout',
-        href: 'https://vuetifyjs.com/layout/pre-defined',
-      },
-      {
-        text: 'Frequently Asked Questions',
-        href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
       },
     ],
   }),
