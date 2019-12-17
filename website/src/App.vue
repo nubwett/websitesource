@@ -57,19 +57,27 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <Intro/>
+      <About id = "about"/>
+      <Projects/>
+      <RSOs/>
+      <Hobbies/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Intro from './components/Intro';
+import About from './components/About';
+import Projects from './components/Projects';
+import RSOs from './components/RSOs';
+import Hobbies from './components/Hobbies';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Intro, About, Projects, RSOs, Hobbies
   },
 
   data: () => ({
