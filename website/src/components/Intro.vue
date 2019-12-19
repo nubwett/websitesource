@@ -11,28 +11,30 @@
               <p>Currently in Computer Undeclared</p>
               <p>Intended Computer Engineering Major</p>
 
-              <v-btn text icon href="assets/.pdf" target="_blank" title="Resume">
+              <v-btn text icon class = "mx-5" href="assets/resume.pdf" target="_blank" title="Resume">
                 <v-icon>mdi-file-account</v-icon>
+                <p>resume</p>
               </v-btn>
-
-              <v-btn text icon href="https://github.com/nubwett" target="_blank" title="GitHub">
+              <v-btn text icon class = "mx-5" href="https://github.com/nubwett" target="_blank" title="GitHub">
                 <v-icon>mdi-github-box</v-icon>
+                <p>GitHub</p>
               </v-btn>
-
               <v-btn
                 text
                 icon
                 href="https://www.linkedin.com/in/evanhao/"
                 target="_blank"
                 title="LinkedIn"
+                class = "mx-5"
               >
                 <v-icon>mdi-linkedin</v-icon>
+                <p>Linkedin</p>
               </v-btn>
             </v-card-text>
           </v-card>
         </v-flex>
 
-        <v-flex xs12 md2 >
+        <v-flex xs12 md2>
           <v-img src="../assets/pfp.jpg" contain height="300"></v-img>
         </v-flex>
       </v-layout>
