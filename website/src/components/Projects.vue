@@ -1,5 +1,5 @@
 <template>
-  <v-container py-10>
+  <v-container flex py-10>
     <v-container>
       <h2 class="headline font-weight-bold mb-3 text-center" id="projects">Projects</h2>
 
@@ -23,9 +23,47 @@
         </v-flex>
       </v-layout>
 
+      <v-layout py-5 xs12 pt-5 justify-center mx-auto row wrap md5>
+        <v-flex md1>
+          <v-img src="../assets/apcapstone.png" width="120"></v-img>
+          <h3>@Basis Scottsdale</h3>
+        </v-flex>
+        <v-flex md4 pl-5>
+          <h2>AP Research (April 2019)</h2>
+          <p>
+            Analyzed Korean-pop (K-pop) music and the effects globalization had on its culture.
+            Through the drastic differences in communication styles of Korea and the West, my research
+            shows the emphasis on more of Korea's culture rather than complete Westernization of K-pop.
+            <br />Research Mentor: Dr. Sunyoung Yang at University of Arizona
+            <br />Resarch Advisor: Lynsday Haag
+          </p>check out the blog page -->
+          <v-btn
+            text
+            href="https://evanapresearch.wordpress.com/"
+            target="_blank"
+            title="Blog Website"
+          >
+            <v-icon>mdi-post</v-icon>
+          </v-btn>
+          <br />check out the paper -->
+          <v-btn
+            text
+            href="https://docs.google.com/document/d/1N6qIECRvNwZmVGTwdAR1YhA4zrLniTa82AeroxPf-1U/edit?usp=sharing"
+            target="_blank"
+            title="Research Paper"
+          >
+            <v-icon>mdi-file-outline</v-icon>
+          </v-btn>
+          <br />check out the presentation slides -->
+          <v-btn text href="https://docs.google.com/presentation/d/1IMNtVQTZ9A5zpidEgXxkAZMOWrFuwcTVs67wSsJQmJ4/edit?usp=sharing" target="_blank" title="Presentation">
+            <v-icon>mdi-presentation</v-icon>
+          </v-btn>
+        </v-flex>
+      </v-layout>
+
       <v-layout xs12 pt-5 justify-center mx-auto row wrap md5>
         <v-flex md1>
-          <v-img src="../assets/codeday.png" width="120"></v-img>
+          <v-img src="../assets/codeday.png" width="120" height></v-img>
           <h3>@Arizona</h3>
         </v-flex>
         <v-flex md4 pl-5>
@@ -100,6 +138,7 @@
           </v-btn>
         </v-flex>
       </v-layout>
+
     </v-container>
   </v-container>
 </template>
