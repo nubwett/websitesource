@@ -49,7 +49,7 @@
                   href="https://open.spotify.com/user/22v7nvjatk6jsqp4dsm6zvkkq?si=5ClLogI5Q8SPShK5RO1lMw"
                   target="_blank"
                   title="Spotify"
-                >Spotify</a>
+                >Music</a>
               </p>
               <p>I love food</p>
               <p></p>
