@@ -8,7 +8,7 @@
             <v-card-title>A Website About Me</v-card-title>
             <v-card-text class="text--primary body-1">
               <p>Freshman at the University of Washington</p>
-              <p>Currently in Computer Undeclared</p>
+              <p>Currently in Engineering Undeclared</p>
               <p>Intended Computer Engineering Major</p>
 
               <v-btn text icon class = "mx-5" href="assets/resume.pdf" target="_blank" title="Resume">

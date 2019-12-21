@@ -31,7 +31,7 @@
         <v-flex md4 pl-5>
           <h2>AP Research (April 2019)</h2>
           <p>
-            Analyzed Korean-pop (K-pop) music and the effects globalization had on its culture.
+            Analyzed Korean-pop (K-pop) music and the effects globalization has on Korea's culture.
             Through the drastic differences in communication styles of Korea and the West, my research
             shows the emphasis on more of Korea's culture rather than complete Westernization of K-pop.
             <br />Research Mentor: Dr. Sunyoung Yang at University of Arizona.
@@ -115,7 +115,7 @@
             Created a number tracker that keeps track of each individual's score in a game.
             A lobby is created and can be joined by other individuals when given the key.
             Used Vue.js for the website design and Google's FireBase to update the scoreboard
-            real-time.
+            real-time. Received 1st place for best website category.
             <br />Team member: Ben Bousquet.
           </p>
           <v-btn text href="https://ytrack-c3c34.firebaseapp.com/" target="_blank" title="yTrack">

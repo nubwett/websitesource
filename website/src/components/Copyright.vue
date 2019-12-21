@@ -1,6 +1,6 @@
 <template>
   <v-container white--text text-center>
-    <v-flex xs12 mx-auto py-5 justify-center color = "white">
+    <v-flex xs12 mx-auto pt-5 justify-center color = "white">
       <p>
         Designed and built by Evan Hao using Vue / Vuetify and hosted on GitHub Pages.
         <v-container xs12>
