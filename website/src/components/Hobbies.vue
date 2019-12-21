@@ -24,7 +24,7 @@
 
         <v-flex md3 mx-5 xs12>
           <v-card>
-            <v-card-title class="justify-center">Misc. Extracurriculars</v-card-title>
+            <v-card-title class="justify-center">Misc. RSOs</v-card-title>
             <v-card-text class="text--primary body-1">
               <p>Asian-American Intervarsity</p>
               <p>Asian-American Christian Fellowship</p>

@@ -16,9 +16,9 @@
             using Vue.js and used Google's API for sentiment analysis to analyze
             and determine what words are considered toxic or not.
             <br />Team members: Kent Zeng, Allen Su, and Frank Hou.
-          </p>check out the github -->
+          </p>
           <v-btn text href="https://github.com/nubwett/Detox" target="_blank" title="GitHub pages">
-            <v-icon>mdi-github-face</v-icon>
+            <v-icon>mdi-github-circle</v-icon>
           </v-btn>
         </v-flex>
       </v-layout>
@@ -34,9 +34,9 @@
             Analyzed Korean-pop (K-pop) music and the effects globalization had on its culture.
             Through the drastic differences in communication styles of Korea and the West, my research
             shows the emphasis on more of Korea's culture rather than complete Westernization of K-pop.
-            <br />Research Mentor: Dr. Sunyoung Yang at University of Arizona
-            <br />Resarch Advisor: Lynsday Haag
-          </p>check out the blog page -->
+            <br />Research Mentor: Dr. Sunyoung Yang at University of Arizona.
+            <br />Resarch Advisor: Lyndsay Haag.
+          </p>
           <v-btn
             text
             href="https://evanapresearch.wordpress.com/"
@@ -45,7 +45,6 @@
           >
             <v-icon>mdi-post</v-icon>
           </v-btn>
-          <br />check out the paper -->
           <v-btn
             text
             href="https://docs.google.com/document/d/1N6qIECRvNwZmVGTwdAR1YhA4zrLniTa82AeroxPf-1U/edit?usp=sharing"
@@ -54,9 +53,32 @@
           >
             <v-icon>mdi-file-outline</v-icon>
           </v-btn>
-          <br />check out the presentation slides -->
-          <v-btn text href="https://docs.google.com/presentation/d/1IMNtVQTZ9A5zpidEgXxkAZMOWrFuwcTVs67wSsJQmJ4/edit?usp=sharing" target="_blank" title="Presentation">
+          <v-btn
+            text
+            href="https://docs.google.com/presentation/d/1IMNtVQTZ9A5zpidEgXxkAZMOWrFuwcTVs67wSsJQmJ4/edit?usp=sharing"
+            target="_blank"
+            title="Presentation"
+          >
             <v-icon>mdi-presentation</v-icon>
+          </v-btn>
+        </v-flex>
+      </v-layout>
+
+      <v-layout xs12 pt-5 justify-center mx-auto row wrap md5>
+        <v-flex md1>
+          <v-img src="../assets/liml.png" width="120" height></v-img>
+          <h3>@Arizona</h3>
+        </v-flex>
+        <v-flex md4 pl-5>
+          <h2>LIML (April 2018 - February 2019)</h2>
+          <p>
+            Created a website to assist high school students with AP Computer Science A and
+            AP Calculus. The website provides generated AP Calculus questions along with lessions
+            and practice exam solutions to AP Computer Science questions.
+            <br />Team member: Suhas Vittal.
+          </p>
+          <v-btn text href="http://liml.us-east-2.elasticbeanstalk.com/" target="_blank" title="LIML">
+            <v-icon>mdi-web</v-icon>
           </v-btn>
         </v-flex>
       </v-layout>
@@ -73,13 +95,12 @@
             how you want to identify your events with tags and descriptions.
             Website was built with Javascript.
             <br />Team members: Ben Bousquet, James Jass.
-          </p>check out the website -->
-          <v-btn text href="https://agenda-modern.surge.sh/" target="_blank" title="GitHub pages">
-            <v-icon>mdi-application</v-icon>
+          </p>
+          <v-btn text href="https://agenda-modern.surge.sh/" target="_blank" title="Agenda">
+            <v-icon>mdi-web</v-icon>
           </v-btn>
-          <br />check out the github -->
-          <v-btn text href="https://github.com/nubwett/ytrack" target="_blank" title="GitHub pages">
-            <v-icon>mdi-github-face</v-icon>
+          <v-btn text href="https://github.com/nubwett/agenda" target="_blank" title="GitHub">
+            <v-icon>mdi-github-circle</v-icon>
           </v-btn>
         </v-flex>
       </v-layout>
@@ -96,18 +117,12 @@
             Used Vue.js for the website design and Google's FireBase to update the scoreboard
             real-time.
             <br />Team member: Ben Bousquet.
-          </p>check out the website -->
-          <v-btn
-            text
-            href="https://ytrack-c3c34.firebaseapp.com/"
-            target="_blank"
-            title="GitHub pages"
-          >
-            <v-icon>mdi-application</v-icon>
+          </p>
+          <v-btn text href="https://ytrack-c3c34.firebaseapp.com/" target="_blank" title="yTrack">
+            <v-icon>mdi-web</v-icon>
           </v-btn>
-          <br />check out the github -->
-          <v-btn text href="https://github.com/nubwett/ytrack" target="_blank" title="GitHub pages">
-            <v-icon>mdi-github-face</v-icon>
+          <v-btn text href="https://github.com/nubwett/ytrack" target="_blank" title="GitHub">
+            <v-icon>mdi-github-circle</v-icon>
           </v-btn>
         </v-flex>
       </v-layout>
@@ -123,22 +138,15 @@
             along with a ChemTools, which was created in a previous CodeDay that
             calculated the molar mass of a given molecule.
             <br />Team members: Ben Bousquet, James Jass.
-          </p>check out the website -->
-          <v-btn text href="https://schooltools.surge.sh/" target="_blank" title="GitHub pages">
-            <v-icon>mdi-application</v-icon>
+          </p>
+          <v-btn text href="https://schooltools.surge.sh/" target="_blank" title="School Tools">
+            <v-icon>mdi-web</v-icon>
           </v-btn>
-          <br />check out the github -->
-          <v-btn
-            text
-            href="https://github.com/nubwett/schooltools"
-            target="_blank"
-            title="GitHub pages"
-          >
-            <v-icon>mdi-github-face</v-icon>
+          <v-btn text href="https://github.com/nubwett/schooltools" target="_blank" title="GitHub">
+            <v-icon>mdi-github-circle</v-icon>
           </v-btn>
         </v-flex>
       </v-layout>
-
     </v-container>
   </v-container>
 </template>

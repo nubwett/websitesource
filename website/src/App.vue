@@ -44,6 +44,7 @@
       <Projects style="background: #B4E3F5" id="projects" />
       <RSOs id="RSOs" style="background: #FFAF7B" />
       <Hobbies style="background: #FFFEC8" />
+      <Copyright style= "background: grey"/>
     </v-content>
   </v-app>
 </template>
@@ -54,6 +55,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import RSOs from "./components/RSOs";
 import Hobbies from "./components/Hobbies";
+import Copyright from "./components/Copyright";
 
 export default {
   name: "App",
@@ -63,7 +65,8 @@ export default {
     About,
     Projects,
     RSOs,
-    Hobbies
+    Hobbies,
+    Copyright
   },
 
   created () {

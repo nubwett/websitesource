@@ -15,8 +15,8 @@
           <p>
             Tackling the current issue of "Freshman 15" where we examine the factors for why many
             Freshman are synonymous with having an unhealthy lifestyle when they enter college.
-            <br />Team members: Jeffrey Qiu (Lead), Andrew Tang, Jennifer Konishi, Lily Liu, and Melody Yeung
-          </p>check out our presentation slides -->
+            <br />Team members: Jeffrey Qiu (Lead), Andrew Tang, Jennifer Konishi, Lily Liu, and Melody Yeung.
+          </p>
           <v-btn
             text
             href="https://drive.google.com/open?id=1CGSEMf0jIYn41XRCUdg_Pnp0kDVS28AcFpe837eJ34k"
@@ -26,15 +26,6 @@
             <v-icon>mdi-presentation</v-icon>
           </v-btn>
         </v-flex>
-      </v-layout>
-      <v-layout justify-center>
-        <a
-          v-for="(link, i) in importantLinks"
-          :key="i"
-          :href="link.href"
-          class="subheading mx-3"
-          target="_blank"
-        >{{ link.text }}</a>
       </v-layout>
     </v-flex>
   </v-container>

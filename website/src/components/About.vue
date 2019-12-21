@@ -5,7 +5,7 @@
       <p>Hello! My name is Evan Hao.</p>
       <p>
         I am currently a Freshman studying at the University of Washington (UW).
-        I entered UW as Engineering Undeclared in hopes to become a Computer Engineer.
+        I entered UW as Engineering Undeclared in hopes to become a Computer Engineer. 
       </p>
       <v-layout justify-center></v-layout>
     </v-flex>
