@@ -11,7 +11,7 @@
               <p>Currently in Engineering Undeclared</p>
               <p>Intended Computer Engineering Major</p>
 
-              <v-btn text icon class = "mx-5" href="assets/resume.pdf" target="_blank" title="Resume">
+              <v-btn text icon class = "mx-5" href="../assets/resume.pdf" target="_blank" title="Resume">
                 <v-icon>mdi-file-account</v-icon>
                 <p>resume</p>
               </v-btn>
