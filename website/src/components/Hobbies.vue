@@ -8,7 +8,7 @@
       </p>
 
       <v-layout mb-5 py-5 xs12 pt-5 justify-center mx-auto row wrap md5 text-center>
-        <v-flex md3 mx-5 xs12>
+        <!-- <v-flex md3 mx-5 xs12>
           <v-card>
             <v-card-title class="justify-center">Games I Play</v-card-title>
             <v-card-text class="text--primary body-1">
@@ -20,7 +20,7 @@
               <p>Osu</p>
             </v-card-text>
           </v-card>
-        </v-flex>
+        </v-flex> -->
 
         <v-flex md3 mx-5 xs12>
           <v-card>
